@@ -3,6 +3,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'open sans',sans-serif;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,13 +15,18 @@ nav {
     font-size: 45px;
     font-weight: 800;
     line-height: normal;
+    margin-left: 150px;
+    margin-top: 30px;
+    
 }
+
 .text-primary {
     color: #FD6E0A;
 }
 nav > ul {
     display: flex;
     align-items: center;
+    margin-right: 110px;
 }
 nav li {
     list-style: none;
@@ -33,9 +39,114 @@ nav a {
 }
 .btn-primary {
     border-radius: 5px;
-    background-color: #FD6E0A;
-    border: 0 ;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+    
+
+
+/* } header related styles */
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content {
+    max-width: 500px;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.banner-description{
+    margin-top: 0;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+    margin-top: 100px;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #757575;
+}
+/* main section style */
+main {
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 0 auto;
+    
+}
+/* main section about */
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px;
+    margin: 130px 0;
+}
+.about-info-container {
+    display: flex ;
+    justify-content: space-around;
+}
+.info-title {
+    text-align: center;
+    font-weight: 400;
+   
+}
+.info-description {
+    font-weight: 700;
+}
+/* skill related styles */
+
+#what-i-do-descriptions{
+    padding: 30px 150px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.062);
+   
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 70px;
+}
+.skill-description{
+    color: #757575;
+}
+
+/* Resume section styles */
+.resume-column-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
 }
