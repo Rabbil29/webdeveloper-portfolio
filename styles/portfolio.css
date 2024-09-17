@@ -150,3 +150,27 @@ main {
     font-size: 30px;
     color: #474747;
 }
+.resume-container {
+    display: flex;
+}
+.resume-item-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+.resume-item-institute {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.resume-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-column hr{
+    margin-right: 25px;
+}
+.download-cv{
+    text-align: center;
+}
